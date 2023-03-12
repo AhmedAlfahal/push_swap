@@ -6,15 +6,15 @@
 /*   By: aalfahal <aalfahal@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 18:49:14 by aalfahal          #+#    #+#             */
-/*   Updated: 2023/02/24 12:44:27 by aalfahal         ###   ########.fr       */
+/*   Updated: 2023/03/12 17:22:39 by aalfahal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "libft/libft.h"
-# include "ft_printf/ft_printf.h"
+# include "../libft/libft.h"
+# include "../ft_printf/ft_printf.h"
 
 typedef struct s_ps
 {

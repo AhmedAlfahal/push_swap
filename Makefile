@@ -6,7 +6,7 @@
 #    By: aalfahal <aalfahal@student.42abudhabi.ae>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/04 19:14:21 by aalfahal          #+#    #+#              #
-#    Updated: 2023/02/24 17:23:45 by aalfahal         ###   ########.fr        #
+#    Updated: 2023/03/12 17:20:41 by aalfahal         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,13 +16,13 @@ CFLAGS	=	-Wall -Wextra -Werror
 
 NAME	=	push_swap
 
-SRC	=	push_swap.c	\
-		moves.c		\
-		parsing.c	\
-		clean_free.c\
-		sort.c		\
-		sort2.c		\
-		sort3.c
+SRC	=	SRC/push_swap.c	\
+		SRC/moves.c		\
+		SRC/parsing.c	\
+		SRC/clean_free.c\
+		SRC/sort.c		\
+		SRC/sort2.c		\
+		SRC/sort3.c
 
 SRCS	=	$(SRC:%.c=%.o)
 
